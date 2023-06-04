@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+textarea {
+    width: 300px;
+    resize: vertical;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#modelContainer {
+    margin-top: 30px;
+}
