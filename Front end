@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LEGO Set Description</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Describe Your LEGO Set</h1>
+    <form id="legoForm">
+        <label for="setNumber">Set Number:</label>
+        <input type="text" id="setNumber" name="setNumber" required><br><br>
+
+        <label for="description">Description:</label><br>
+        <textarea id="description" name="description" rows="5" required></textarea><br><br>
+
+        <button type="submit">Generate 3D Model</button>
+    </form>
+
+    <div id="modelContainer">
+        <!-- The 3D model will be rendered here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
